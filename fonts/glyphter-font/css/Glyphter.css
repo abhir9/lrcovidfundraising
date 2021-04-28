@@ -9,7 +9,7 @@
     font-weight: normal;
     font-style: normal;
 }
-[class*='icon-']:before{
+[class*='icong-']:before{
 	display: inline-block;
    font-family: 'Glyphter';
    font-style: normal;
@@ -18,7 +18,7 @@
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale
 }
-.icon-hospital-bed:before{content:'\0041';}
-.icon-oxygen-tank:before{content:'\0042';}
-.icon-drugs:before{content:'\0043';}
-.icon-patient:before{content:'\0044';}
+.icong-hospital-bed:before{content:'\0041';}
+.icong-oxygen-tank:before{content:'\0042';}
+.icong-drugs:before{content:'\0043';}
+.icong-patient:before{content:'\0044';}
