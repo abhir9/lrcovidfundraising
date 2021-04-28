@@ -1209,3 +1209,9 @@ figure figcaption {
 .card-title {
   font-size: 1.4rem;
   color: #000; }
+
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
