@@ -585,11 +585,17 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
-
-
   <script src="js/main.js"></script>
+  <script>
+    setTimeout(()=>{
+        $(".PaymentButton-text").css('font-size','large')
+          $(".PaymentButton-securedBy").hide()
+          $("span svg").hide()
+          $(".PaymentButton-contents").css('padding','8px')
+          $(".PaymentButton-contents").css('font-style','normal')
+    },1500)
 
-
+</script>
 </body>
 
 </html>
