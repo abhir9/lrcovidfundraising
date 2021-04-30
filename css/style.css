@@ -1218,9 +1218,9 @@ figure figcaption {
 
 .main {
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
-  font-family: "Open Sans";
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   width: 500px;
-  margin: 0 auto;
+  margin: auto;
 }
 .price-table {
   width: 100%;
@@ -1272,7 +1272,7 @@ figure figcaption {
 .price-table tr.price-table-head td {
   font-size: 20px;
   font-weight: 600;
-  font-family: "Montserrat";
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
   text-transform: uppercase;
 }
 .price-table tr.price-table-head {
@@ -1284,7 +1284,7 @@ figure figcaption {
   padding: 16px 24px;
   font-size: 20px;
   font-weight: 600;
-  font-family: "Montserrat";
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
 }
 .price-table td.price a {
   background-color: #5336ca;
@@ -1293,13 +1293,13 @@ figure figcaption {
   margin-top: 16px;
   font-size: 12px;
   font-weight: 600;
-  font-family: "Montserrat";
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
   text-transform: uppercase;
   display: inline-block;
   border-radius: 64px;
 }
 .price-table td.price-table-popular {
-  font-family: "Montserrat";
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
   border-top: 3px solid #5336ca;
   color: #5336ca;
   text-transform: uppercase;
