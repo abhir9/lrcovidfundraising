@@ -1249,7 +1249,7 @@ figure figcaption {
   background-color: #EEEEEE;
 }
 .price-table .fa-check {
-  color: #5336ca;
+  color: #6f42c1;
 }
 .price-table .fa-times {
   color: #D8D6E3;
@@ -1276,7 +1276,7 @@ figure figcaption {
   text-transform: uppercase;
 }
 .price-table tr.price-table-head {
-  background-color: #5336ca;
+  background-color: #6f42c1;
   color: #FFFFFF;
 }
 .price-table td.price {
@@ -1287,7 +1287,7 @@ figure figcaption {
   font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
 }
 .price-table td.price a {
-  background-color: #5336ca;
+  background-color: #6f42c1;
   color: #FFFFFF;
   padding: 12px 32px;
   margin-top: 16px;
@@ -1300,8 +1300,8 @@ figure figcaption {
 }
 .price-table td.price-table-popular {
   font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
-  border-top: 3px solid #5336ca;
-  color: #5336ca;
+  border-top: 3px solid #6f42c1;
+  color: #6f42c1;
   text-transform: uppercase;
   font-size: 12px;
   padding: 12px 48px;
