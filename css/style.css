@@ -1215,3 +1215,9 @@ figure figcaption {
     width: 100%;
     height: auto;
 }
+.donatenow
+{    padding: 7px 25px 7px 25px !important;
+  font-weight: 900 !important;
+  color:#000;
+  background: #FFF428 !important;
+}
