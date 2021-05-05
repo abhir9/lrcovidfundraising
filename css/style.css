@@ -1595,8 +1595,9 @@ figure figcaption {
 
 .donatenow {
   padding: 7px 25px 7px 25px !important;
-  font-weight: 900 !important;
+  font-weight: 600 !important;
   color: #000;
+  border-style: none;
   background: #fff428 !important;
 }
 
