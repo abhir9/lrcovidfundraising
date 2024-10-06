@@ -1,924 +1,355 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>LoginRadius Fundraising</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boost Brand Authority &amp; Leads: GrackerAI for Cybersecurity SaaS</title>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boost Brand Authority &amp; Leads: GrackerAI for Cybersecurity SaaS</title>
+<link rel="icon" type="image/x-icon" href="https://gracker.ai/favicon.ico">
 
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
 
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
+<style>
+    :root {
+        --primary-color: #000000;
+        --secondary-color: #ffffff;
+        --background-color: #f0f0f0;
+        --text-color: #333333;
+        --accent-color: #ff0000;
+        --font-primary: Poppins, Arial, sans-serif;
+        --font-secondary: Inter, Arial, sans-serif;
+    }
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    /* General styles */
+    body {
+        font-family: var(--font-primary);
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
 
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    /* Header styles */
+    header {
+        background-color: var(--secondary-color);
+        padding: 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    .logo {
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: var(--font-secondary);
+    }
 
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="fonts/flaticon-covid/font/flaticon.css">
-  <link rel="stylesheet" href="fonts/glyphter-font/css/Glyphter.css">
+    .logo img{
+        height: 80px;
+    }
 
-  <link rel="stylesheet" href="css/aos.css">
+    nav {
+        display: flex;
+        gap: 1rem;
+    }
 
-  <link rel="stylesheet" href="css/style.css">
+    nav a {
+        text-decoration: none;
+        color: var(--text-color);
+    }
 
+    .grow-btn {
+        background-color: var(--primary-color);
+        color: var(--background-color);
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    /* Alphabet navigation */
+    .alphabet-nav {
+        position: sticky;
+        top: 60px;
+        background-color: var(--secondary-color);
+        padding: 10px 0;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .alphabet-nav a {
+        margin: 2px;
+        text-decoration: none;
+        color: var(--primary-color);
+        flex: 0 0 auto;
+    }
+
+    /* Main content */
+    main {
+        flex-grow: 1;
+        padding: 2rem 0;
+    }
+
+    .category-section {
+        margin-bottom: 30px;
+    }
+
+    /* Search container */
+    #search-container {
+        margin-bottom: 20px;
+    }
+
+    #search-input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        box-sizing: border-box;
+        border: 1px solid var(--secondary-color);
+    }
+
+    #search-results {
+        margin-top: 10px;
+    }
+
+    /* Typography */
+    h1, h2 {
+        color: var(--primary-color);
+        font-family: var(--font-secondary);
+    }
+
+    /* List styles */
+    .homeMain ul {
+        padding-left: 0;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+    }
+
+    .homeMain ul li a {
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+
+    .homeMain ul li a:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--accent-color);
+        text-decoration-thickness: 5px;
+        text-underline-offset: 2px;
+    }
+
+    /* Link styles */
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Footer styles */
+    footer {
+        background-color: var(--secondary-color);
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copyright {
+        font-size: 0.9rem;
+        color: var(--text-color);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        body {
+            padding: 10px;
+        }
+
+        .alphabet-nav {
+            top: 58px;
+        }
+
+        ul {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
 </head>
+<body>
+    <header>
+    <div class="logo"><a href="/"><img src="https://gracker.ai/_astro/logo-white.DuNP12gY_Z22gpAz.svg" /></a></div>
+    <nav>
+        <a href="https://gracker.ai/">Home</a>
+    </nav>
+    <a class="grow-btn" href="https://portal.gracker.ai/">Get started — it&#39;s free</a>
+</header>
+    <main class="homeMain">
+        <h1>My Project</h1>
+        <p>World&#39;s first AI-driven growth engine for cybersecurity B2B SaaS. Engage prospects, demonstrate expertise, and fuel expansion through customized, data-backed content strategies.</p>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search for content...">
+            <div id="search-results"></div>
+        </div>
 
-
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
+        <div id="content">
+            
+                
+                    <h2><a href="/base16/">Base16</a></h2>
+                    <ul>
+                        
+                            <li><a href="/what-is-base16/">What is Base16</a></li>
+                        
+                            <li><a href="/what-is-base16/">What is Base16</a></li>
+                        
+                    </ul>
+                
+                    <h2><a href="/base32/">Base32</a></h2>
+                    <ul>
+                        
+                            <li><a href="/what-is-base32/">What is Base32</a></li>
+                        
+                            <li><a href="/what-is-base32/">What is Base32</a></li>
+                        
+                    </ul>
+                
+            
     </div>
-  </div>
-
-
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
+    </main>
+    <footer>
+    <div class="logo">
+        <a href="/">
+            <img src="https://gracker.ai/_astro/logo-white.DuNP12gY_Z22gpAz.svg" alt="My Project Logo" />
+        </a>
     </div>
-
-
-    <header class="site-navbar light js-sticky-header site-navbar-target" role="banner">
-
-      <div class="container" style="margin-top: 15px;">
-        <div class="row align-items-center">
-
-          <div class="col-sm-12 col-xl-5 logo-wrap">
-            <div class="mb-0 site-logo"><a href="https://www.loginradius.com" target="_blank" class="mb-0"><img
-                  src="images/Loginradius.png" alt="Home"> </a>
-            </div>
-            <div class="site-logo">
-              <img src="images/logo-hope-basket.png" alt="hope basket logo">
-            </div>
-            <div class="site-logo">
-              <img src="images/logo-naya-sawera.png" alt="Naya Sawera logo">
-            </div>
-          </div>
-
-          <div class="col-12 col-md-7 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active">
-                  <a href="#bankdetails">
-                    <button class="donatenow">Donate Now</button>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-
-
-          <div class="col-12 d-inline-block d-xl-none ml-md-0 py-4" style="text-align: center;"><a href="#"
-              class="site-menu-toggle js-menu-toggle float-right">
-              <a href="#bankdetails">
-                <button class="donatenow">Donate Now</button>
-              </a>
-            </a>
-          </div>
-
+    <div class="footer-content">
+        <div class="copyright">
+            © Copyright 2024, Gracker.
         </div>
-      </div>
-
-    </header>
-
-
-
-    <div class="hero-v1">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mr-auto text-center text-lg-left">
-            <!-- <span class="d-block subheading">Covid-19 Awareness</span> -->
-            <h1 class="heading mb-3">Covid-19 Relief Fund</h1>
-            <p class="mb-5">Together we can fight Covid-19 smarter, better and harder than we ever have before. Help us
-              save thousands of lives.
-            </p>
-          </div>
-          <div class="col-lg-6">
-            <figure class="illustration">
-              <img src="images/illustration.png" alt="Image" class="img-fluid">
-            </figure>
-          </div>
-          <div class="col-lg-6"></div>
-        </div>
-      </div>
+        <nav class="footer-nav">
+            <a href="https://gracker.ai/">Home</a>
+            
+                
+                    <a href="https://www.linkedin.com/company/gracker-ai/" target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                
+                    <a href="https://x.com/grackerAI" target="_blank" rel="noopener noreferrer">
+                        Twitter
+                    </a>
+                
+                    <a href="https://www.instagram.com/grackerai/" target="_blank" rel="noopener noreferrer">
+                        Instagram
+                    </a>
+                
+            
+        </nav>
     </div>
-
-
-    <!-- MAIN -->
-
-    <!--<div class="site-section stats">
-      <div class="container">
-        <div class="row mb-3">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading">Coronavirus Statistics</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptate!</p>
-          </div>
-        </div>
-        <div class="row"> 
-          <div class="col-lg-4">
-            <div class="data">
-              <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
-              </span>
-              <strong class="d-block number">14,112,077</strong>
-              <span class="label">Active Cases</span>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="data">
-              <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
-              </span>
-              <strong class="d-block number">595,685</strong>
-              <span class="label">Deaths</span>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="data">
-              <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
-              </span>
-              <strong class="d-block number">8,397,665</strong>
-              <span class="label">Recovered Cases</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
-
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-            <figure class="img-play-vid">
-              <img src="images/hqdefault.jpg" alt="Image" class="img-fluid">
-              <div class="absolute-block d-flex">
-                <span class="text">Watch the Video</span>
-                <a href="https://youtu.be/b8SygJA1cIM" data-fancybox class="btn-play">
-                  <span class="icon-play"></span>
-                </a>
-              </div>
-            </figure>
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <!-- <h2 class="mb-4" style="font-size: 24px;">India urgently needs oxygen concentrators to save thousands of lives</h2>
-            <h2 class="mb-4" style="font-size: 24px;">Let’s help together</h2> -->
-            <p style="font-size: 22px;">We are targeting to raise a fund of INR 12.5 lakhs to provide
-              necessary medical supplies.
-            </p>
-            <p style="font-size: 22px;">Same amount of your contribution will be matched by LoginRadius.</p>
-            <!-- <ul class="list-check list-unstyled mb-5">
-              <li>Oxygen Concentrators</li>
-              <li>PPE Kit</li>
-              <li>Free Oxygen Cylinder Suppliers</li>
-              <li>Medical Supplies Delivery</li>
-              <li>Ration Kits/Food Service</li>
-            </ul> -->
-            <!-- <p> -->
-            <a href="#bankdetails"><button class="donatenow">
-                Donate
-              </button>
-            </a>
-            </p>
-          </div>
-        </div>
-        <p style="font-size: 18px;">
-          India is witnessing a massive surge in Covid-19 cases with the country seeing over 3 lakh new cases daily. The
-          numbers are increasing daily, and the massive surge in cases has caused a strain on the healthcare system
-          which is unable to meet the expectations.
-        </p>
-        <p style="font-size: 18px;">
-          The second wave of the coronavirus pandemic has left India shocked. Hospitals are operating under dire
-          conditions and patients are struggling for oxygen. Hospital ICUs are overcrowded. There are shortages of
-          oxygen for patients, PPE kits for doctors, and Covid-19 tests.
-        </p>
-        <p style="font-size: 18px;">
-          As India is battling a devastating wave of Covid-19, the only possible way to win the war against
-          coronavirus is to unite our efforts and stand together. At this point, medical supplies, oxygen and vaccines
-          are the most important things India needs.
-        </p>
-
-        <p style="font-size: 18px;">
-          At LoginRadius, we see this demand as an opportunity to serve. We are committed to providing hospitals and
-          patients all the necessary help, including oxygen & other essential medical supplies for free.
-        </p>
-
-        <p style="font-size: 18px;">
-          Together we can stop the spread! We're calling on everyone to step up efforts to help reduce the increased
-          stress on health care systems and their ability to deliver essential care to those in need. Let’s do our bit
-          and donate to help curb the biggest global outbreak.
-
-        </p>
-
-
-      </div>
-    </div>
-
-    <div class="site-section bg-primary-light">
-      <div class="container pb-5">
-        <div class="row mb-5">
-          <div class="col-lg-9 mx-auto text-center">
-
-            <h2 class="mb-4 section-heading">Your Donation Will Be Utilized to Buy Medical Supplies</h2>
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3">
-
-            <div class="feature-v1 d-flex align-items-center">
-
-              <div class="icon-wrap mr-3">
-                <span class="icong-oxygen-tank"></span>
-              </div>
-              <div>
-                <h3>Oxygen Concentrators</h3>
-                <!-- <span class="d-block">Lorem ipsum dolor sit.</span> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="feature-v1 d-flex align-items-center">
-              <div class="icon-wrap mr-3">
-                <span class="icong-patient"></span>
-              </div>
-              <div>
-                <h3>Surgical Masks</h3>
-                <!-- <span class="d-block">Lorem ipsum dolor sit.</span> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="feature-v1 d-flex align-items-center">
-              <div class="icon-wrap mr-3">
-                <span class="icong-hospital-bed"></span>
-              </div>
-              <div>
-                <h3>Medical Beds</h3>
-                <!-- <span class="d-block">Lorem ipsum dolor sit.</span> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="feature-v1 d-flex align-items-center">
-              <div class="icon-wrap mr-3">
-                <span class="icong-drugs"></span>
-              </div>
-              <div>
-                <h3>Medicines</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container pt-3 d-flex">
-        <div class="main">
-          <table class="price-table">
-            <tbody>
-
-              <tr class="price-table-head">
-                <td style="text-align:center;"> One Bed setup</td>
-                <td>Cost (in INR)</td>
-
-              </tr>
-
-              <tr>
-                <td> Bed</td>
-                <td>₹5,000</td>
-
-              </tr>
-              <tr>
-                <td> Oxymeter</td>
-                <td>₹2,000</td>
-              </tr>
-              <tr>
-                <td> BP Meter</td>
-                <td>₹2,000</td>
-              </tr>
-              <tr>
-                <td> Thermometer</td>
-                <td>₹1,200</td>
-
-
-              </tr>
-              <tr>
-                <td> Accessories</td>
-                <td>₹2,000</td>
-
-              </tr>
-              <tr>
-                <td> Oxygen Concentrator</td>
-                <td>₹33,810</td>
-
-
-              </tr>
-              <tr>
-                <td style="text-align: end; font-weight: 800;">Total</td>
-                <td>₹46,010</td>
-
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="main">
-          <table class="price-table">
-            <tbody>
-              <tr class="price-table-head">
-                <td> Target Fundraise</td>
-                <td>Cost (in INR)</td>
-
-              </tr>
-              <tr>
-                <td> 20 Bed Setup</td>
-                <td>₹9,20,200</td>
-              </tr>
-              <tr>
-                <td>5000 Masks</td>
-                <td>₹1,25,000</td>
-
-              </tr>
-              <tr>
-                <td>10000 Meals</td>
-                <td>₹2,00,000</td>
-              </tr>
-              <tr>
-                <td style="text-align: end; font-weight: 800;">Target</td>
-                <td>₹12,45,200</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section ">
-      <div class="container">
-        <div id="owl-demo" class="owl-carousel owl-theme">
-          <div class="item"><img src="images/a.jpg" alt="corona image"></div>
-          <div class="item"><img src="images/b.jpg" alt="corona image"></div>
-          <div class="item"><img src="images/c.jpg" alt="corona image"></div>
-          <div class="item"><img src="images/d.jpg" alt="corona image"></div>
-          <div class="item"><img src="images/e.jpg" alt="corona image"></div>
-          <div class="item"><img src="images/f.jpg" alt="corona image"></div>
-
-
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="site-section bg-primary-light">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6"> -->
-
-    <!--<div class="row">
-              <div class="col-6 col-lg-6 mt-lg-5">
-                <div class="media-v1 bg-1">
-                  <div class="icon-wrap">
-                    <span class="flaticon-stay-at-home"></span>
-                  </div>
-                  <div class="body">
-                    <h3>Stay at home</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-                  </div>
-                </div>
-
-                <div class="media-v1 bg-1">
-                  <div class="icon-wrap">
-                    <span class="flaticon-patient"></span>
-                  </div>
-                  <div class="body">
-                    <h3>Wear facemask</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 col-lg-6">
-                <div class="media-v1 bg-1">
-                  <div class="icon-wrap">
-                    <span class="flaticon-social-distancing"></span>
-                  </div>
-                  <div class="body">
-                    <h3>Keep social distancing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-                  </div>
-                </div>
-
-                <div class="media-v1 bg-1">
-                  <div class="icon-wrap">
-                    <span class="flaticon-hand-washing"></span>
-                  </div>
-                  <div class="body">
-                    <h3>Wash your hands</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis!</p>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <h2 class="section-heading mb-4">How to Prevent Coronavirus?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis doloribus consequatur fugit voluptatum ex rerum perspiciatis cupiditate, esse hic!</p>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, error!</p>
-
-            <ul class="list-check list-unstyled mb-5">
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Consectetur adipisicing elit</li>
-              <li>Unde doloremque</li>
-            </ul>
-
-            <p><a href="#" class="btn btn-primary">Read more about prevention</a></p>-->
-    <!-- </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div class="site-section bg-primary-light">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-3">
-            <img src="./images/illustration.png">
-          </div>
-        </div>
-
-      </div>
-
-    </div> -->
-
-
-    <div class="site-section bg-primary-light" style="padding: 50px 0;">
-      <div class=" container">
-        <div class="row mb-5">
-          <div class="col-lg-7 mx-auto text-center">
-            <h2 class="mb-2 section-heading">How to Protect Yourself</h2>
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 ">
-            <div class="row mt-2 pt-2">
-              <div class="col-lg-6 do ">
-                <h3>You should do</h3>
-                <ul class="list-unstyled check">
-                  <li>Stay at home</li>
-                  <li>Wear mask</li>
-                  <li>Use sanitizer</li>
-                  <li>Disinfect your home</li>
-                  <li>Wash your hands</li>
-                  <li>Frequent self-isolation</li>
-                </ul>
-              </div>
-              <div class="col-lg-6 dont ">
-                <h3>You should avoid</h3>
-                <ul class="list-unstyled cross">
-                  <li>Avoid infected people</li>
-                  <li>Avoid animals</li>
-                  <li>Avoid handshaking</li>
-                  <li>Aviod infected surfaces</li>
-                  <li>Don't touch your face</li>
-                  <li>Avoid droplets</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <img src="images/protect.png" alt="Image" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- <div class="site-section bg-primary-light">
-      <div class="container"> -->
-    <!--    <div class="row mb-5">
-          <div class="col-lg-7 mx-auto text-center">
-            <h2 class="mb-4 section-heading">Symptoms of Coronavirus</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 mb-4">
-            <div class="symptom d-flex">
-              <div class="img">
-                <img src="images/symptom_high-fever.png" alt="Image" class="img-fluid">
-              </div>
-              <div class="text">
-                <h3>High Fever</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ipsum repellendus animi modi iure provident, cupiditate perferendis voluptatem!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="symptom d-flex">
-              <div class="img">
-                <img src="images/symptom_cough.png" alt="Image" class="img-fluid">
-              </div>
-              <div class="text">
-                <h3>Cough</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ullam illo laborum repellendus vel esse dolor, sunt exercitationem.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="symptom d-flex">
-              <div class="img">
-                <img src="images/symptom_sore-troath.png" alt="Image" class="img-fluid">
-              </div>
-              <div class="text">
-                <h3>Sore Troath</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum esse voluptatum, vel inventore at! Ullam, libero reiciendis amet?</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mb-4">
-            <div class="symptom d-flex">
-              <div class="img">
-                <img src="images/symptom_headache.png" alt="Image" class="img-fluid">
-              </div>
-              <div class="text">
-                <h3>Headache</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem voluptatem ratione veniam rerum qui quibusdam reprehenderit quis.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-md-center">
-          <div class="col-lg-10">
-            <div class="note row">
-
-              <div class="col-lg-8 mb-4 mb-lg-0"><strong>Stay at home and call your doctor:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, eaque.</div>
-              <div class="col-lg-4 text-lg-right">
-                <a href="#" class="btn btn-primary"><span class="icon-phone mr-2 mt-3"></span>Help line</a>
-              </div>
-            </div>
-          </div>
-        </div>-->
-    <!-- </div>
-    </div> -->
-
-
-    <!--<div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 mx-auto text-center">
-            <h2 class="mb-4 section-heading">News &amp; Articles</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="post-entry">
-              <a href="#" class="thumb">
-                <span class="date">30 Jul, 2020</span>
-                <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-meta text-center">
-                <a href="">
-                  <span class="icon-user"></span>
-                  <span>Admin</span>
-                </a>
-                <a href="#">
-                  <span class="icon-comment"></span>
-                  <span>3 Comments</span>
-                </a>
-              </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="post-entry">
-              <a href="#" class="thumb">
-                <span class="date">30 Jul, 2020</span>
-                <img src="images/hero_2.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-meta text-center">
-                <a href="">
-                  <span class="icon-user"></span>
-                  <span>Admin</span>
-                </a>
-                <a href="#">
-                  <span class="icon-comment"></span>
-                  <span>3 Comments</span>
-                </a>
-              </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="post-entry">
-              <a href="#" class="thumb">
-                <span class="date">30 Jul, 2020</span>
-                <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-              </a>
-              <div class="post-meta text-center">
-                <a href="">
-                  <span class="icon-user"></span>
-                  <span>Admin</span>
-                </a>
-                <a href="#">
-                  <span class="icon-comment"></span>
-                  <span>3 Comments</span>
-                </a>
-              </div>
-              <h3><a href="#">How Coronavirus Very Contigous</a></h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
-
-    <div class="site-section">
-      <div class="container pb-5">
-        <div class="row mb-5">
-          <div class="col-lg-9 mx-auto text-center">
-            <h2 class="mb-4 section-heading">Frequently Asked Questions</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 mx-auto">
-            <div class="accordion" id="faqExample">
-              <div class="card">
-                <div class="card-header p-2" id="headingOne" style="background-color: white;">
-                  <h5 class=" mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                      aria-expanded="true" aria-controls="collapseOne">
-                      Why is LoginRadius doing this?
-                    </button>
-                  </h5>
-                </div>
-
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqExample">
-                  <div class="card-body">
-                    The coronavirus pandemic has become disastrous. India is struggling under a tremendous shortage of
-                    oxygen supply and the situation is getting worse with each passing hour. The health care system is
-                    about to break. To protect the people from the adverse effects of coronavirus, LoginRadius has set
-                    up
-                    fundraising initiatives to secure the lives of millions in these challenging times. LoginRadius is
-                    working
-                    closely with hospitals and nursing homes in Jaipur & Hyderabad to provide them with life-saving
-                    healthcare equipment and supplies, to cope with the significant stress on the hospital system.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header p-2" id="headingTwo" style="background-color: white;">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo"
-                      aria-expanded="true" aria-controls="collapseTwo">
-                      As an individual, how can I help?
-                    </button>
-                  </h5>
-                </div>
-
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqExample">
-                  <div class="card-body">
-                    You can help by donating to our mission and stop the virus’s spread in India. You can save lives by
-                    contributing to buy oxygen supplies, medical beds, surgical masks, medicines to make sure there are
-                    enough medical supplies needed to save lives.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header p-2" id="headingThree" style="background-color: white;">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree"
-                      aria-expanded="true" aria-controls="collapseThree" style="text-align: left;">How long does it take
-                      for the funds to be
-                      disbursed to people in need?
-                    </button>
-                  </h5>
-                </div>
-
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqExample">
-                  <div class="card-body">
-                    Approximately a period of 1-2 weeks.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header p-2" id="headingFour" style="background-color: white;">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour"
-                      aria-expanded="true" aria-controls="collapseFour">
-                      How will my donation be used?
-                    </button>
-                  </h5>
-                </div>
-
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqExample">
-                  <div class="card-body">
-                    Our Plan of Action focuses on the procurement of oxygen concentrators for donation to the beds that
-                    we
-                    will arrange in close coordination with Radha Swami Satsang in Jaipur. Apart from Jaipur, we will
-                    extend
-                    our support to Hyderabad as well.
-
-                    Also, the concentrators will be distributed to Jaipur COVID hospitals based on the need. Our current
-                    priority
-                    is to get as many concentrates as possible at the earliest.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section bg-primary-light">
-      <div class="container pb-5">
-        <div class="row mx-auto">
-          <div class="col-lg-9 mx-auto text-center">
-            <div>
-              <h2 class="mb-4 section-heading">Disclaimer</h2>
-            </div>
-
-          </div>
-          <p>The donor is donating the amount with his/her willful consent after taking into consideration all the
-            facts and circumstances. The donee/ Recipient of donation shall not be responsible for any legal action,
-            claims, or damages of any sort if later it is found that the default arises on the part of the donor.
-            The
-            donor is not eligible to take any legal action against donee. However, it will be ensured that the money
-            raised through donation shall be utilized for carrying out humanitarian work during pandemic situations
-            only and no business or commercial activities shall be carried out from the money so raised. Donations
-            from Indian Residents are accepted only.</p>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section">
-      <div class="container pb-5">
-        <div class="row mx-auto">
-          <div class="col-lg-9 mx-auto text-center">
-            <div>
-              <h2 class="mb-4 section-heading">About Naya Sawera</h2>
-            </div>
-
-          </div>
-          <p>
-            ‘Naya Sawera’ is one of the leading Youth Base, registered Non-Government & Not-For-Profit
-            Charitable Organization registered under Societies Registration Act working for the welfare of
-            the people of different underprivileged sections of society by various means.
-
-            The aim is to see that no human being is deprived of his basic needs because of poverty.The
-            organization also seeks to support and nurture the talents who cannot avail proper facilities
-            due to their harsh conditions.
-
-            The organization supports all its programs from the funds voluntary donated by people, funds
-            collected by the members and the membership fee paid by the members. As of now the
-            organization has over 700 registered members and volunteers with the team of 40 core
-            member who offer their services in the programs conducted by the organization
-          </p>
-
-        </div>
-      </div>
-    </div>
-    <div id="bankdetails" class="site-section bg-primary-light">
-      <div class="container pb-5">
-        <div class="row mx-auto">
-          <div class="col-lg-9 mx-auto text-center">
-            <div>
-              <h2 class="mb-4 section-heading">Bank Details</h2>
-            </div>
-          </div>
-          <p>
-          <ul style="list-style-type: none;">
-            <li>Name - Hope Basket Foundation</li>
-            <li>Account No - 8000926647</li>
-            <li> IFSC code - Kkbk0000273</li>
-          </ul>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="site-footer bg-primary-light">
-      <div class="container">
-        <!-- <div class="row">
-          <div class="col-lg-12">
-            <h2 class="footer-heading mb-4">About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque tenetur inventore veniam, hic vel
-              ipsa necessitatibus ducimus architecto fugiat!</p>
-            <div class="my-5">
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Quick Links</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">Symptoms</a></li>
-                  <li><a href="#">Prevention</a></li>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">About Coronavirus</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Helpful Link</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">Helathcare Professional</a></li>
-                  <li><a href="#">LGU Facilities</a></li>
-                  <li><a href="#">Protect Your Family</a></li>
-                  <li><a href="#">World Health</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Resources</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">WHO Website</a></li>
-                  <li><a href="#">CDC Website</a></li>
-                  <li><a href="#">Gov Website</a></li>
-                  <li><a href="#">DOH Website</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <div class="row text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p>The situation is critical, and we are counting on your support.</p>
-              <p class="copyright"><small>
-
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a
-                    href="https://colorlib.com" target="_blank">Colorlib</a>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                </small></p>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  </div> <!-- .site-wrap -->
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/isotope.pkgd.min.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    setTimeout(() => {
-      $(".PaymentButton-text").css('font-size', 'large')
-      $(".PaymentButton-securedBy").hide()
-      $("span svg").hide()
-      $(".PaymentButton-contents").css('padding', '8px')
-      $(".PaymentButton-contents").css('font-style', 'normal')
-    }, 1500)
-
-    // var owl = $("#owl-demo");
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-      items: 2,
-      loop: true,
-      margin: 10,
-      autoplay: true,
-      autoplayTimeout: 1000,
-      autoplayHoverPause: true
-    });
-    owl.trigger('play.owl.autoplay', [1000])
-    owl.trigger('owl.play', 1000);
-  </script>
+</footer>
+    <script>
+        // Prepare data for Fuse.js
+        const searchData = [
+            
+                
+                    {
+                        title: 'What is Base16',
+                        category: 'Base16',
+                        url: '/what-is-base16/',
+                        content: 'Welcome to our comprehensive guide on Base16, a powerful encoding system that plays a crucial role in digital data representation. Commonly known as hexadecimal, Base16 utilizes a unique combination of 16 symbols—numbers 0-9 and letters A-F—to efficiently represent binary data in a more human-readable format. In this article, you’ll discover what Base16 is, its practical applications in programming, web development, and data visualization, as well as how it compares to other numeral systems. Whether you&#39;re a beginner curious about coding or an experienced developer looking to refresh your knowledge, this page will equip you with everything you need to understand Base16 and its significance in today’s technology landscape.'
+                    },
+                
+                    {
+                        title: 'What is Base16',
+                        category: 'Base16',
+                        url: '/what-is-base16/',
+                        content: 'Welcome to our comprehensive guide on &#34;What is Base16&#34;! In this article, we’ll explore the fascinating world of Base16, also known as hexadecimal, a numbering system that uses 16 symbols (0-9 and A-F) to represent values. Whether you&#39;re a coding enthusiast, a digital artist, or simply curious about how computers handle data, understanding Base16 is essential. We’ll break down its applications, significance in programming, and how it simplifies data representation. Get ready to dive into the basics of Base16 and discover how this powerful system plays a crucial role in technology and computing!'
+                    },
+                
+            
+                
+                    {
+                        title: 'What is Base32',
+                        category: 'Base32',
+                        url: '/what-is-base32/',
+                        content: 'Welcome to our comprehensive guide on Base32! In this article, we&#39;ll unravel the concept of Base32, a unique encoding scheme that transforms binary data into a more human-readable format. Perfect for applications like data transmission and storage, Base32 is widely used in programming, web development, and even QR code generation. Whether you&#39;re a seasoned developer or just curious about data encoding, you&#39;ll discover how Base32 works, its benefits, and practical examples to enhance your understanding. Dive in to learn how this efficient encoding method can simplify your digital projects!'
+                    },
+                
+                    {
+                        title: 'What is Base32',
+                        category: 'Base32',
+                        url: '/what-is-base32/',
+                        content: 'Welcome to our comprehensive guide on **Base32**, a unique encoding scheme that transforms binary data into a more human-readable format. Whether you&#39;re a developer looking to enhance your data storage solutions or just curious about how Base32 works, this page will provide you with a clear understanding of its purpose, benefits, and applications. We’ll explore its practical uses in programming, data transmission, and even cryptocurrency, ensuring you grasp the essentials of Base32 encoding. Dive in to discover how this system can simplify your data handling and improve your projects!'
+                    },
+                
+            
+        ];
+
+        // Initialize Fuse with the search data
+        const fuse = new Fuse(searchData, {
+            keys: ['title', 'category', 'content'],
+            threshold: 0.3,
+            includeScore: true
+        });
+
+        // Search functionality
+        const searchInput = document.getElementById('search-input');
+        const searchResults = document.getElementById('search-results');
+        const content = document.getElementById('content');
+
+        searchInput.addEventListener('input', function() {
+            const query = this.value;
+            if (query.length > 2) {
+                const results = fuse.search(query);
+                displayResults(results);
+            } else {
+                searchResults.innerHTML = '';
+                content.style.display = 'block';
+            }
+        });
+
+        function displayResults(results) {
+            if (results.length === 0) {
+                searchResults.innerHTML = '<p>No results found.</p>';
+                content.style.display = 'none';
+                return;
+            }
+
+            let html = '<ul>';
+            results.forEach(result => {
+                html += `<li><a href="${result.item.url}">${result.item.title}</a> (${result.item.category})</li>`;
+            });
+            html += '</ul>';
+
+            searchResults.innerHTML = html;
+            content.style.display = 'none';
+        }
+
+        // Smooth scrolling for alphabet navigation
+        document.querySelectorAll('.alphabet-nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
-
 </html>
